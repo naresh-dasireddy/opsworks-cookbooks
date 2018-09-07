@@ -1,14 +1,14 @@
 execute "copy the zip to a directory" do
-  cwd ""
+  cwd "~/"
   command "mkdir artifact"
 end
 
 execute "copy the artifact " do
-  cwd ""
+  cwd "~/"
   command "cp test2.zip /artifact "
 end
 
 execute "unzip the artifact" do
-  cwd "artifact"
+  cwd "~/artifact"
   command "unzip test2.zip"
 end
