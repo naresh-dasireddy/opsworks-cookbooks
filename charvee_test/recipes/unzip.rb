@@ -3,10 +3,11 @@
 #  command "sudo mkdir artifact"
 #end
 
-execute "copy the artifact " do
-  cwd ""
-  command "sudo cp test2.zip /project "
-end
+
+#execute "copy the artifact " do
+ # cwd ""
+ # command "sudo cp test2.zip /project "
+#end
 
 execute "unzip the artifact" do
   cwd "project"
