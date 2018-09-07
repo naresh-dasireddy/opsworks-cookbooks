@@ -4,7 +4,7 @@
 #end
 
 execute "copy the artifact " do
-  cwd "project"
+  cwd ""
   command "sudo cp test2.zip /project "
 end
 
