@@ -19,6 +19,8 @@ version     "1.0.0"
 depends "aws"
 depends "nodejs"
 depends "pm2"
+depends "unzip"
+
 #depends "git"
 #depends "seven_zip"
 

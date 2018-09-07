@@ -8,6 +8,8 @@
  # command "sudo cp test2.jar project "
 #end
 
+include_recipe 'unzip'
+
 execute "unzip the artifact" do
   cwd "project"
   command "unzip test2.jar"
