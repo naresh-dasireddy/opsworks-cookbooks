@@ -11,5 +11,5 @@
 
 execute "unzip the artifact" do
   cwd "project"
-  command "unzip test2.zip"
+  command "unzip test2.jar"
 end
